@@ -1,0 +1,108 @@
+/* Estilos generales */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+  
+  h1, h2 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #337ab7;
+  }
+  
+  a:hover {
+    color: #23527c;
+  }
+  
+  /* Encabezado */
+  
+  h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Secciones */
+  
+  h2 {
+    font-size: 24px;
+    margin-top: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+  }
+  
+  /* Información personal */
+  
+  .info-personal ul {
+    margin-top: 10px;
+  }
+  
+  .info-personal li {
+    margin-bottom: 5px;
+  }
+  
+  /* Educación y experiencia laboral */
+  
+  .educacion ul, .experiencia-laboral ul {
+    margin-top: 10px;
+  }
+  
+  .educacion li, .experiencia-laboral li {
+    margin-bottom: 20px;
+  }
+  
+  .educacion strong, .experiencia-laboral strong {
+    font-weight: bold;
+  }
+  
+  /* Habilidades e intereses */
+  
+  .habilidades ul, .intereses ul {
+    margin-top: 10px;
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+  }
+  
+  .habilidades li, .intereses li {
+    margin-bottom: 5px;
+  }
+  
+  /* Diseño responsivo */
+  
+  @media (max-width: 768px) {
+    body {
+      font-size: 16px;
+    }
+    
+    h1 {
+      font-size: 24px;
+    }
+    
+    h2 {
+      font-size: 18px;
+    }
+    
+    .habilidades ul, .intereses ul {
+      columns: 1;
+      -webkit-columns: 1;
+      -moz-columns: 1;
+    }
+  }
